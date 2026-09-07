@@ -3,6 +3,7 @@ name: Unity Android Build
 on:
   push:
     branches:
+      - main
       - ci/android-build
   pull_request:
     branches:
